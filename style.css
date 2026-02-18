@@ -1,0 +1,194 @@
+/* General Reset */
+ * { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+body { 
+    font-family: Arial, sans-serif; line-height: 1.6; 
+    color: #333;
+    height: 100vh;
+    width: 100%;
+ } 
+
+    /* Header */ 
+header { 
+    background: #fff; 
+    color: #fff; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 2rem;
+    position: sticky; top: 0;
+    
+} 
+
+header .logo { 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+} 
+header nav ul { 
+    list-style: none;
+    display: flex; 
+} 
+header nav ul li {
+     margin-left: 1.5rem;
+} 
+header nav ul li a { 
+    color: #0fcd94;
+    text-decoration: none; 
+    transition: color 0.3s;
+} 
+header nav ul li a:hover {
+    color: #f39c12; 
+} 
+/* Hero Section */ 
+.hero { 
+    color: #fff; 
+    text-align: center; 
+    padding: 16rem 2rem; 
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(HC\ food\ pic.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    animation: change 5s infinite ease-in-out;
+} 
+.hero h1 { 
+    font-size: 3rem; 
+    margin-bottom: 1rem; 
+} 
+.hero p { 
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+} 
+.btn { 
+    background: #f39c12;
+    color: #fff; 
+    padding: 0.5rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background 0.3s; 
+} 
+.btn:hover { 
+    background: #d35400; 
+} 
+/* About Us */
+.profile{
+    display: flex;
+    flex-direction: column;
+} 
+.profile img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-top: 80px;
+}
+.wrapper{
+    padding: 0 15px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.intro{
+    flex: 1;
+}
+.intro h2{
+    color: #FFA500;
+    padding-top: 20px;
+
+}
+.intro p{
+    line-height: 1.6rem;
+}
+.intro .cnn{
+    width: 160px;
+    height: 40px;
+    background: #FFA500;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.intro .cnn a{
+    text-decoration: none;
+    color: #000;
+}
+svg{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 20px;
+    align-items: center;
+    object-fit: cover;
+}
+.wrapper2{
+    background-color: #e6b55c;
+    background-position: center;
+    background-size: cover;
+    padding: 0 15px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.profile2 h2{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    
+}
+.obj{
+    margin-left: 50px;
+    border: #e6b55c; 
+}
+/* Sections */ 
+section { 
+    padding: 3rem 2rem; 
+    text-align: center; 
+} 
+.programs .program-list { 
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 2rem; 
+} 
+.programs .program { 
+    background: #ecf0f1; 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    width: 30%; 
+} 
+.program img{
+    width: 90%;
+    height: 40vh;
+    vertical-align: middle;
+ 
+}
+.donate { 
+    background: #f9f9f9; 
+} 
+/* Footer */ 
+footer { 
+    background: #2c3e50; 
+    color: #fff; 
+    padding: 2rem; 
+    text-align: center; 
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(HC\ single\ 2.jpeg);
+    }
+    0%
+    {
+        background-image: url(HC\ group\ 2.jpeg);
+    }
+}
