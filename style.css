@@ -188,8 +188,10 @@ section {
     vertical-align: middle;
     max-width: 200%;
     max-height: 200%;
+}
+.programm p{
+    text-align: justify;
 
- 
 }
 .donate { 
     background: #f9f9f9; 
@@ -201,6 +203,14 @@ footer {
     padding: 2rem; 
     text-align: center; 
 }
+.btnn { 
+    background: #f39c12;
+    color: #fff; 
+    padding: 0.8rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background 0.3s; 
+} 
 @keyframes change{
     0%
     {
