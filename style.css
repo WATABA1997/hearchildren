@@ -183,14 +183,15 @@ section {
 
 } 
 .program img{
-    width: 90%;
+    width: 80%;
     height: 40vh;
     vertical-align: middle;
-    max-width: 200%;
+    max-width: 180%;
     max-height: 200%;
 }
 .programm p{
     text-align: justify;
+    display: flex;
 
 }
 .donate { 
